@@ -2,6 +2,7 @@
  * Main backend API and entry point for express.
  */
 const express = require('express');
+const serveIndex = require('serve-index');
 const {auth, dbase} = require('./config');
 
 /**
@@ -13,6 +14,7 @@ const app = express();
  * 2. Use the static folder to serve files
  */
 app.use('/', express.static('public'));
+app.use('/', serveIndex('public', null));
 
 const port = process.env.PORT || 80;
 

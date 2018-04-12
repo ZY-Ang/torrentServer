@@ -13,6 +13,7 @@
     "express": "^4.16.3",
     "firebase": "^4.12.1",
     "forever": "^0.15.3",
+    "serve-index": "^1.9.1",
     "webtorrent": "^0.98.24"
   }
 }
