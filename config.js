@@ -4,8 +4,9 @@
 
 const firebase = require('firebase');
 
-/** 1. Config parameters retrieved from firebase console at
- * {@link https://auto-i-b231b.firebaseio.com} */
+/**
+ * TODO: Change to your own params. These are revoked.
+ */
 const config = {
     apiKey: "AIzaSyDfAr3Che_q_AAe3mLey2uGt7FaBClqqJ4",
     authDomain: "pitorrenti.firebaseapp.com",
